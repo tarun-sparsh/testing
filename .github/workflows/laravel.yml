@@ -62,7 +62,7 @@ jobs:
 
       with:
         host: ${{ secrets.SSH_HOST }}
-        key: ${{ secrets.SSH_PRIVATE_KEY }}
+        password: ${{ secrets.SSH_PASSWORD }}
         username: ${{ secrets.SSH_USERNAME }}  
         script: |
           cd tenancy1
