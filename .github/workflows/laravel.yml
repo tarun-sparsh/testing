@@ -65,6 +65,5 @@ jobs:
         password: ${{ secrets.SSH_PASSWORD }}
         username: ${{ secrets.SSH_USERNAME }}  
         script: |
-          cd tenancy1
-          git checkout -f 
+          cd tenancy1/testing 
           git pull
